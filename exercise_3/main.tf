@@ -29,4 +29,5 @@ resource "jsc_ap" "all_services" {
   privateaccess    = true
   threatdefence    = true
   datapolicy       = true
+  idptype          = "OKTA"
 }
